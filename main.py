@@ -108,5 +108,5 @@ while(True):
 
     # Print the response from the model
     output=json.loads(response.choices[0].message.content)
-    print(output)
+    print(json.dumps(output))
     messages.append({"role":"system","content":output["user_response"]})

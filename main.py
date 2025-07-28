@@ -9,7 +9,7 @@ load_dotenv()
 endpoint = os.getenv("ENDPOINT")
 model_name = os.getenv("MODEL_NAME")
 deployment = os.getenv("DEPLOYMENT_NAME")
-subscription_key = os.getenv("API_KEY")
+subscription_key = os.getenv("AZURE_OPENAI_API_KEY")
 api_version = os.getenv("AZURE_OPENAI_API_VERSION")
 
 # Create an instance of AzureOpenAI client
